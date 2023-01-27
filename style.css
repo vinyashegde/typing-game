@@ -1,0 +1,65 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  margin: 50px auto;
+  width: 80%;
+  text-align: center;
+}
+
+#word-to-type {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#typing-input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+#submit-button {
+  width: 10%;
+  margin-top: 20px;
+}
+
+#score-display {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+#start-button {
+  width: 10%;
+  margin-top: 20px;
+}
+
+#timer {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+#level-select {
+  margin-top: 20px;
+}
+
+.highlight {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+#submit-button,#typing-input {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #typing-input {
+    width: 80%;
+  }
+  #submit-button {
+    width: 20%;
+  }
+}

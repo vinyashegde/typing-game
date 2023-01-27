@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Typing Game</h1><br>
+      <select id="level-select" class="form-control">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select><br>
+      <div id="word-to-type"></div>
+
+      <input type="text" id="typing-input">
+      <button id="submit-button" class="btn btn-primary">Submit</button>
+      <div id="score-display"></div>
+      <button id="start-button" class="btn btn-success">Start</button>
+      <div id="timer"></div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
